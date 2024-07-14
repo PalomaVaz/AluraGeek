@@ -1,0 +1,52 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Stormtrooper",
+      "preco": "$60,00",
+      "imagem": "https://odlei9sti0yndxyb.public.blob.vercel-storage.com/card_1-zwBA3Fs2dUuv72uEARNtMe9ab2lEJ8.jpg"
+    },
+    {
+      "id": "3",
+      "nome": "Stormtrooper",
+      "preco": "$60,00",
+      "imagem": "https://odlei9sti0yndxyb.public.blob.vercel-storage.com/card_1-zwBA3Fs2dUuv72uEARNtMe9ab2lEJ8.jpg"
+    },
+    {
+      "id": "4",
+      "nome": "Game Boy Classic",
+      "preco": "$80,00",
+      "imagem": "https://odlei9sti0yndxyb.public.blob.vercel-storage.com/card_2-AkGd6BSjcMEzkROBekAbHKWttASiUL.jpg"
+    },
+    {
+      "id": "5",
+      "nome": "Stormtrooper",
+      "preco": "$60,00",
+      "imagem": "https://odlei9sti0yndxyb.public.blob.vercel-storage.com/card_1-zwBA3Fs2dUuv72uEARNtMe9ab2lEJ8.jpg"
+    },
+    {
+      "id": "6",
+      "nome": "Game Boy Classic",
+      "preco": "$80,00",
+      "imagem": "https://odlei9sti0yndxyb.public.blob.vercel-storage.com/card_2-AkGd6BSjcMEzkROBekAbHKWttASiUL.jpg"
+    },
+    {
+      "id": "7",
+      "nome": "Stormtrooper",
+      "preco": "$60,00",
+      "imagem": "https://odlei9sti0yndxyb.public.blob.vercel-storage.com/card_1-zwBA3Fs2dUuv72uEARNtMe9ab2lEJ8.jpg"
+    },
+    {
+      "id": "8",
+      "nome": "Game Boy Classic",
+      "preco": "$80,00",
+      "imagem": "https://odlei9sti0yndxyb.public.blob.vercel-storage.com/card_2-AkGd6BSjcMEzkROBekAbHKWttASiUL.jpg"
+    },
+    {
+      "id": "9",
+      "nome": "Stormtrooper",
+      "preco": "$60,00",
+      "imagem": "https://odlei9sti0yndxyb.public.blob.vercel-storage.com/card_1-zwBA3Fs2dUuv72uEARNtMe9ab2lEJ8.jpg"
+    }
+  ]
+}

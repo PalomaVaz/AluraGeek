@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="all">
+        <section class="menu">
+            <header class="logo">
+                <img src="./assets/logo.png">
+                <h3 class="menu__title">AluraGeek</h3>
+            </header>
+        </section>
+
+        <section class="content">
+            <div class="produtos__geral">
+                <h3 class="produtos__title">MEUS PRODUTOS:</h3>
+
+                <div class="produtos__container" alt="produtos" data-lista></div>
+
+                <!-- Scroll -->
+            </div>
+
+            <div class="formulario">
+                <div class="formulario__container">
+                    <h2 class="formulario__titulo-texto">ADICIONAR PRODUTO:</h2>
+                </div>
+    
+                <form class="principal__formulario" data-formulario>
+                    <div class="formulario__input">
+                        <input name="nome" id="nome" class="input__escrita" type="text" placeholder="nome..." minlength="3" required data-nome/>
+                        <span class="mensagem-erro"></span>
+                    </div>
+    
+                    <div class="formulario__input">
+                        <input name="preco" id="preco" class="input__escrita" type="text" placeholder="valor..." minlength="2" required data-preco/>
+                        <span class="mensagem-erro"></span>
+                    </div>
+                    <div class="formulario__input">
+                        <input name="imagem" class="input__escrita" required placeholder="imagem..."
+                            id='imagem' data-imagem/>
+                        <span class="mensagem-erro"></span>
+                    </div>
+    
+                    <div class="botao">
+                        <input value="Guardar" class="botao__1" id="enviar" data-botao-enviar type="submit">
+    
+                        <input value="Limpar" class="botao__2" id="enviar" data-botao-limpar type="button">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <section class="footer">
+        <div class="footer__rodape">
+            <img src="assets\logo.png">
+            <h3 class="footer__title">AluraGeek</h3>
+        </div>
+        <p class="footer__paragraph">Desenvolvido por Paloma Vaz</p>
+        <p class="footer__paragraph">2024</p>
+    </section>
+
+    <script src="./js/mostrarProdutos.js" type="module"></script>
+    <script src="./js/criarProdutos.js" type="module"></script>
+</body>
+</html>
